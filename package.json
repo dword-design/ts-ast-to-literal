@@ -1,6 +1,13 @@
 {
   "name": "ts-ast-to-literal",
   "version": "1.0.0",
+  "description": "Transform a TypeScript AST node into a real JS object.",
+  "keywords": [
+    "abstract-syntax-tree",
+    "ast",
+    "node",
+    "typescript"
+  ],
   "repository": "dword-design/ts-ast-to-literal",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
@@ -35,12 +42,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "description": "Transform a TypeScript AST node into a real JS object.",
-  "keywords": [
-    "abstract-syntax-tree",
-    "ast",
-    "node",
-    "typescript"
-  ]
+  }
 }

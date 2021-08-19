@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Transform a TypeScript AST node into a real JS object.
 <!-- /DESCRIPTION -->
 
 Special thanks to [ast-to-literal](https://github.com/hypervillain/ast-to-literal) for the initial idea 👏.
