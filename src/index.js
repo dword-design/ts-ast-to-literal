@@ -1,5 +1,5 @@
 import { filter, fromPairs, map } from '@dword-design/functions'
-import * as ts from 'typescript'
+import ts from 'typescript'
 
 const traverse = node => {
   switch (node.kind) {

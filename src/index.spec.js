@@ -1,6 +1,6 @@
 import tester from '@dword-design/tester'
 import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
-import * as ts from 'typescript'
+import ts from 'typescript'
 
 import self from '.'
 
@@ -47,6 +47,10 @@ export default tester(
       result: ['str'],
     },
     {
+      code: "['test1', { foo: 'bar' }]",
+      result: ['test1', { foo: 'bar' }],
+    },
+    {
       code: "{ foo: 'bar', test: 8 }",
       result: { foo: 'bar', test: 8 },
     },
@@ -74,30 +78,10 @@ export default tester(
       code: '{ foo() {} }',
       result: {},
     },
-    /* {
-      code: endent`
-        {
-            ...{ spreaded: 'foo' },
-            ...{ spreadedFunc: () => {} },
-            bool: true,
-            false: false,
-            undef: undefined,
-            null: null,
-            num: 8,
-            str: 'my-string',
-            obj: {
-            isObjectExpression: true,
-            },
-            arr: [...['spreaded'], 1, true, 'str', { key: 'value' }],
-            func: () => {},
-            method() {},
-        }
-        `,
-        result: 
-      )
-      expect(self(ast.statements[0].expression)).toMatchSnapshot(this)
-    })
-  }, */
+    {
+      code: "{ foo: ['test1'] }",
+      result: { foo: ['test1'] },
+    },
   ],
   [
     {
