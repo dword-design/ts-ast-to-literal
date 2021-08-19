@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.0...v1.0.1) (2021-08-19)
+
+
+### Bug Fixes
+
+* refactoring ([770d169](https://github.com/dword-design/ts-ast-to-literal/commit/770d169f767b4e90e6651d06c5e4f71d918866e1))
+
 # 1.0.0 (2021-08-19)
 
 
