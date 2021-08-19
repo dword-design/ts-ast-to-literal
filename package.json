@@ -35,5 +35,12 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "description": "Transform a TypeScript AST node into a real JS object.",
+  "keywords": [
+    "abstract-syntax-tree",
+    "ast",
+    "node",
+    "typescript"
+  ]
 }
