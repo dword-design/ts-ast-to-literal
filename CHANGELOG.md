@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.1...v1.0.2) (2022-01-04)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#20](https://github.com/dword-design/ts-ast-to-literal/issues/20)) ([52a6b8a](https://github.com/dword-design/ts-ast-to-literal/commit/52a6b8a7685a2c6eb637884f4942dbc46acdcda5))
+
 ## [1.0.1](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.0...v1.0.1) (2021-08-19)
 
 
