@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
+<p>
     <a href="https://npmjs.org/package/ts-ast-to-literal">
       <img
         src="https://img.shields.io/npm/v/ts-ast-to-literal.svg"
