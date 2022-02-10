@@ -82,6 +82,10 @@ export default tester(
       code: "{ foo: ['test1'] }",
       result: { foo: ['test1'] },
     },
+    {
+      code: `{ "foo": "bar" }`,
+      result: { foo: 'bar' },
+    },
   ],
   [
     {
