@@ -16,7 +16,7 @@
   "types": "./index.d.ts",
   "files": [
     "dist",
-    "index.d.ts"
+    "types.d.ts"
   ],
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
