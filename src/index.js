@@ -25,10 +25,11 @@ const traverse = node => {
         |> filter(
           property =>
             property.kind === ts.SyntaxKind.PropertyAssignment &&
-            property.name.kind === ts.SyntaxKind.Identifier
+            (property.name.kind === ts.SyntaxKind.Identifier ||
+              property.name.kind === ts.SyntaxKind.StringLiteral)
         )
         |> map(property => [
-          property.name.escapedText,
+          property.name.escapedText || property.name.text,
           traverse(property.initializer),
         ])
         |> fromPairs
