@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.3...v1.0.4) (2022-02-12)
+
+
+### Bug Fixes
+
+* handle StringLiteral as object property; TypeScript declarations ([#26](https://github.com/dword-design/ts-ast-to-literal/issues/26)) ([4637cf2](https://github.com/dword-design/ts-ast-to-literal/commit/4637cf22a85547a57c3fb0748341f3de76c5aa91))
+
 ## [1.0.3](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.2...v1.0.3) (2022-01-12)
 
 
