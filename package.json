@@ -13,7 +13,7 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
-  "types": "./index.d.ts",
+  "types": "types.d.ts",
   "files": [
     "dist",
     "types.d.ts"
