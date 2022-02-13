@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.4...v1.0.5) (2022-02-13)
+
+
+### Bug Fixes
+
+* fix rename ([9e65bb7](https://github.com/dword-design/ts-ast-to-literal/commit/9e65bb707a169c8b144a2623efeb76157fcddfe8))
+
 ## [1.0.4](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.3...v1.0.4) (2022-02-12)
 
 
