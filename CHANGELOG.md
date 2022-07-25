@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.5...v1.0.6) (2022-07-25)
+
+
+### Bug Fixes
+
+* make typescript a direct dependency ([22b3873](https://github.com/dword-design/ts-ast-to-literal/commit/22b38730a490e123c0f47dd7aea7084363ed8fd4))
+
 ## [1.0.5](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.4...v1.0.5) (2022-02-13)
 
 
