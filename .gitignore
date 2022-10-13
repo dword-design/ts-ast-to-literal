@@ -3,5 +3,5 @@
 /.nyc_output
 /.test.env.json
 /coverage
-/dist
+# /dist
 /node_modules
