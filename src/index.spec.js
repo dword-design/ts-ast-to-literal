@@ -2,7 +2,7 @@ import tester from '@dword-design/tester'
 import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
 import ts from 'typescript'
 
-import self from '.'
+import self from './index.js'
 
 export default tester(
   [
@@ -51,19 +51,19 @@ export default tester(
       result: ['test1', { foo: 'bar' }],
     },
     {
-      code: "{ foo: 'bar', test: 8 }",
+      code: "{ foo: 'bar', test: 8 }",
       result: { foo: 'bar', test: 8 },
     },
     {
-      code: "{ ['foo']: 'bar', test: 8 }",
+      code: "{ ['foo']: 'bar', test: 8 }",
       result: { test: 8 },
     },
     {
-      code: "{ foo: 'bar', test: { bar: 'baz' } }",
+      code: "{ foo: 'bar', test: { bar: 'baz' } }",
       result: { foo: 'bar', test: { bar: 'baz' } },
     },
     {
-      code: '{ false: false }',
+      code: '{ false: false }',
       result: { false: false },
     },
     {
