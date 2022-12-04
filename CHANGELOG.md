@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/ts-ast-to-literal/compare/v2.0.0...v3.0.0) (2022-12-04)
+
+
+### Bug Fixes
+
+* drop node.js 12, move to esm ([#51](https://github.com/dword-design/ts-ast-to-literal/issues/51)) ([2d616f9](https://github.com/dword-design/ts-ast-to-literal/commit/2d616f99236da25ce9d83822c13bc2b7e7f1f734))
+
+
+### BREAKING CHANGES
+
+* drop node.js 12, move to esm
+
 # [2.0.0](https://github.com/dword-design/ts-ast-to-literal/compare/v1.0.6...v2.0.0) (2022-10-13)
 
 
