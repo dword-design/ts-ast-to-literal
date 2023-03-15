@@ -93,11 +93,11 @@ export default tester(
         const ast = ts.createSourceFile(
           'x.ts',
           `export default ${test.code}`,
-          ts.ScriptTarget.Latest
+          ts.ScriptTarget.Latest,
         )
         expect(self(ast.statements[0].expression)).toEqual(test.result)
       },
     },
     testerPluginTmpDir(),
-  ]
+  ],
 )
