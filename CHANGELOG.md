@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.2...v3.0.3) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency typescript to v4.9.5 ([8640552](https://github.com/dword-design/ts-ast-to-literal/commit/8640552dcaf31f5539d6df7b3dc5be95219313df))
+
 ## [3.0.2](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.1...v3.0.2) (2023-03-15)
 
 
