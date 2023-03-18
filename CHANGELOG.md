@@ -1,3 +1,11 @@
+## [3.0.5](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.4...v3.0.5) (2023-03-18)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.13 ([21ff6c7](https://github.com/dword-design/ts-ast-to-literal/commit/21ff6c79d74cdf7c5b41016822cd2455cb1ea12d))
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.14 ([10390e2](https://github.com/dword-design/ts-ast-to-literal/commit/10390e2861453c8d890134c73298c1ef177e5fe4))
+
 ## [3.0.4](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.3...v3.0.4) (2023-03-16)
 
 
