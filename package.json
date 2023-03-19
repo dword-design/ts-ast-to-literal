@@ -1,6 +1,6 @@
 {
   "name": "ts-ast-to-literal",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "Transform a TypeScript AST node into a real JS object.",
   "keywords": [
     "abstract-syntax-tree",
