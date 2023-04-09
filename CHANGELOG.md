@@ -1,3 +1,10 @@
+## [3.0.11](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.10...v3.0.11) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.14 ([d8bfec8](https://github.com/dword-design/ts-ast-to-literal/commit/d8bfec87eec8e37e1f4f7bef0a4d3e96efaa1fd7))
+
 ## [3.0.10](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.9...v3.0.10) (2023-04-09)
 
 
