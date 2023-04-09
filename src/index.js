@@ -26,7 +26,7 @@ const traverse = node => {
           property =>
             property.kind === ts.SyntaxKind.PropertyAssignment &&
             (property.name.kind === ts.SyntaxKind.Identifier ||
-              property.name.kind === ts.SyntaxKind.StringLiteral)
+              property.name.kind === ts.SyntaxKind.StringLiteral),
         )
         |> map(property => [
           property.name.escapedText || property.name.text,
