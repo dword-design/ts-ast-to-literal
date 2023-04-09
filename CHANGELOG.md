@@ -1,3 +1,10 @@
+## [3.0.12](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.11...v3.0.12) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([e213285](https://github.com/dword-design/ts-ast-to-literal/commit/e213285e6d1ef27261fa4a2a69a1ca5faca521aa))
+
 ## [3.0.11](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.10...v3.0.11) (2023-04-09)
 
 
