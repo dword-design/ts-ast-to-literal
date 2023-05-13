@@ -31,7 +31,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/functions": "^4.0.6"
+    "@dword-design/functions": "^5.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^9.1.7",
