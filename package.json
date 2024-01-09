@@ -34,7 +34,7 @@
     "@dword-design/functions": "^4.0.6"
   },
   "devDependencies": {
-    "@dword-design/base": "^9.1.7",
+    "@dword-design/base": "^11.0.0",
     "@dword-design/tester": "^2.0.8",
     "@dword-design/tester-plugin-tmp-dir": "^2.1.3",
     "typescript": "^4"
