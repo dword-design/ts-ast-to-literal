@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.13...v4.0.0) (2024-03-04)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#80](https://github.com/dword-design/ts-ast-to-literal/issues/80)) ([1dbf9ba](https://github.com/dword-design/ts-ast-to-literal/commit/1dbf9ba18863e2f7b5ce7c249d65feeb66d5fd49))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 ## [3.0.13](https://github.com/dword-design/ts-ast-to-literal/compare/v3.0.12...v3.0.13) (2023-05-16)
 
 
