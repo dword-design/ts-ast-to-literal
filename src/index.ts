@@ -44,8 +44,11 @@ const traverse = <T = unknown>(node: ts.Node): T => {
           .map(property => {
             const propAssignment = property as ts.PropertyAssignment;
             const name = propAssignment.name as ts.Identifier | ts.StringLiteral;
+            const key = name.kind === ts.SyntaxKind.Identifier 
+              ? (name as ts.Identifier).escapedText 
+              : (name as ts.StringLiteral).text;
             return [
-              (name as any).escapedText || (name as any).text,
+              key,
               traverse(propAssignment.initializer),
             ];
           }),
