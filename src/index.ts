@@ -3,8 +3,7 @@ import ts from 'typescript';
 const traverse = <T = unknown>(node: ts.Node): T => {
   switch (node.kind) {
     case ts.SyntaxKind.StringLiteral: {
-      const stringLiteral = node as ts.StringLiteral;
-      return stringLiteral.text as T;
+      return (node as ts.StringLiteral).text as T;
     }
 
     case ts.SyntaxKind.TrueKeyword: {
@@ -20,21 +19,18 @@ const traverse = <T = unknown>(node: ts.Node): T => {
     }
 
     case ts.SyntaxKind.NumericLiteral: {
-      const numericLiteral = node as ts.NumericLiteral;
-      return Number.parseFloat(numericLiteral.text) as T;
+      return Number.parseFloat((node as ts.NumericLiteral).text) as T;
     }
 
     case ts.SyntaxKind.ArrayLiteralExpression: {
-      const arrayLiteral = node as ts.ArrayLiteralExpression;
-      return arrayLiteral.elements
+      return (node as ts.ArrayLiteralExpression).elements
         .filter(element => element.kind !== ts.SyntaxKind.SpreadElement)
         .map(element => traverse(element)) as T;
     }
 
     case ts.SyntaxKind.ObjectLiteralExpression: {
-      const objectLiteral = node as ts.ObjectLiteralExpression;
       return Object.fromEntries(
-        objectLiteral.properties
+        (node as ts.ObjectLiteralExpression).properties
           .filter(
             property =>
               property.kind === ts.SyntaxKind.PropertyAssignment &&
