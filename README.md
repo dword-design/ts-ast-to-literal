@@ -70,7 +70,8 @@ $ yarn add ts-ast-to-literal
 ## Usage
 
 ```js
-const ts = require('typescript')
+import ts from 'typescript';
+import astToLiteral from 'ts-ast-to-literal';
 
 const ast = ts.createSourceFile(
   'x.ts',
@@ -78,7 +79,7 @@ const ast = ts.createSourceFile(
   ts.ScriptTarget.Latest
 )
 
-console.log(self(ast.statements[0].expression))
+console.log(astToLiteral(ast.statements[0].expression))
 // { foo: 'bar', num: 8 }
 ```
 
