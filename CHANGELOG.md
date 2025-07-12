@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/dword-design/ts-ast-to-literal/compare/v4.0.1...v4.0.2) (2025-07-12)
+
+
+### Bug Fixes
+
+* trigger release ([2b0a9ca](https://github.com/dword-design/ts-ast-to-literal/commit/2b0a9ca1fcb0a73931f7d7821b0ce299ab79d01e))
+
 ## [4.0.1](https://github.com/dword-design/ts-ast-to-literal/compare/v4.0.0...v4.0.1) (2025-07-12)
 
 
