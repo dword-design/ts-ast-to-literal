@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@dword-design/base':
-        specifier: ^13.1.1
-        version: 13.1.1(@types/node@24.0.13)(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-core@3.5.17)(esbuild@0.25.6)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)))(vue-eslint-parser@9.4.3(eslint@9.31.0(jiti@2.4.2)))
+        specifier: ^14.0.0
+        version: 14.0.0(@types/node@24.0.13)(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-core@3.5.17)(esbuild@0.25.6)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)))(vue-eslint-parser@9.4.3(eslint@9.31.0(jiti@2.4.2)))
       '@playwright/test':
         specifier: ^1.54.1
         version: 1.54.1
@@ -195,9 +195,9 @@ packages:
     resolution: {integrity: sha512-xHQRK7/3ARa+Xs8n4M8EW/8buDUclvm8+05JN6cOorkONAj7QgPbn452TY6xhuT8d8R9OUivzNgUHGabgEfwUA==}
     engines: {node: '>=18'}
 
-  '@dword-design/base@13.1.1':
-    resolution: {integrity: sha512-2eAmxxsX0qCUSFHxsVZp9kaX4fiQPnjXCSAsXmDdHDcZ2YD02mluhFNWsEfUkBSXLqtH7ehSVDztqcoVYquCbg==}
-    engines: {node: '>=18'}
+  '@dword-design/base@14.0.0':
+    resolution: {integrity: sha512-8mV5dsWNNyrTMeYIb0vrLJr98yy6jTzJh3w4QgyQK/RzEVxeX+D/Q/fQrrKbtmTmfiBVSf9OW6inRSwexQoSnA==}
+    engines: {node: '>=20'}
     hasBin: true
 
   '@dword-design/ci@4.0.6':
@@ -208,8 +208,8 @@ packages:
   '@dword-design/dedent@0.7.0':
     resolution: {integrity: sha512-OFmAmzKiDUh9m7WRMYcoEOPI7b5tS5hdqQmtKDwF+ZssVJv8a+GHo9VOtFsmlw3h8Roh/9QzFWIsjSFZyQUMdg==}
 
-  '@dword-design/defu@1.0.0':
-    resolution: {integrity: sha512-TSeItFcOEB9xUlw745+l9M+uU9bn6SaOH2q4uy2IFtmHbPYzLHsFEaaBvScD1XqKnxVyqOK4UtnFibv8Ja1ffA==}
+  '@dword-design/defu@1.0.3':
+    resolution: {integrity: sha512-QEM8a6CPIrMvudnuNDwr3IxWJ0dcMKG9tgxt3zuPk/NmXV0ejk4qxQJ1PfquJwRzu59UsqNpUAACMG485VMIUA==}
     engines: {node: '>=18'}
 
   '@dword-design/depcheck-parser-sass@4.0.4':
@@ -691,6 +691,9 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
+  '@types/hosted-git-info@3.0.5':
+    resolution: {integrity: sha512-Dmngh7U003cOHPhKGyA7LWqrnvcTyILNgNPmNCxlx7j8MIi54iBliiT8XqVLIQ3GchoOjVAyBzNJVyuaJjqokg==}
+
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
 
@@ -711,6 +714,9 @@ packages:
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
+
+  '@types/parse-git-config@3.0.4':
+    resolution: {integrity: sha512-jz5eGdk9lBgAd4rMbXTP7MRG7AsGQ8DrXsRumDcXDLClHcpKluislylPVMP/qp90J/LlIrrPZRZIQUflHfrDnQ==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1504,10 +1510,6 @@ packages:
 
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
-
-  deepmerge@4.3.1:
-    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
-    engines: {node: '>=0.10.0'}
 
   defaults@1.0.4:
     resolution: {integrity: sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A==}
@@ -2898,8 +2900,8 @@ packages:
     resolution: {integrity: sha512-pDjaLs54bftlqyCT7KRC9FfbAURfKVcQFnNNe5qp4RLEOpNGiGjdNTUgMsYKFqZd75WhI0tYxQMIbgnpDptPCw==}
     engines: {node: '>=14'}
 
-  make-cli@4.0.0:
-    resolution: {integrity: sha512-xA2cFJBd4qVax3oIWry1J2zPeiqGf611wF/uMf4dpQ3M1SGnQpkEUGRJb2ryU6uFaocBiGmQl7K7nvdUNXrA3Q==}
+  make-cli@4.0.6:
+    resolution: {integrity: sha512-PF/bFDfDrVfJSpSfg/JYYKl8WRaqJ5T16uZZ1a7hX14BW74JiKInGPLd/ihmLIgHkjb2fu5YTL1gwOIaWh828g==}
     engines: {node: '>=18'}
 
   make-dir@4.0.0:
@@ -3255,9 +3257,9 @@ packages:
     resolution: {integrity: sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==}
     engines: {node: '>=0.10.0'}
 
-  output-files@2.0.32:
-    resolution: {integrity: sha512-E4lArd+sN7ILmv2jAasFoXP6XGvaKGTYNKSNHBn+zcGSWzrYXye5Y5L6v2yCrDyXESGKVGrvr5fsd8TUvRYvOQ==}
-    engines: {node: '>=14'}
+  output-files@3.0.0:
+    resolution: {integrity: sha512-mFwRkTDiw6evbQW1G6To+Yp7tN2WOVh8ne7AyzTRWtqPU+Sza3ZhtXEO3vpLnaYPYEIUSrlILeZVp0rOmcA5Kw==}
+    engines: {node: '>=18'}
 
   own-keys@1.0.1:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
@@ -3274,6 +3276,10 @@ packages:
   p-is-promise@3.0.0:
     resolution: {integrity: sha512-Wo8VsW4IRQSKVXsJCn7TomUaVtyfjVDn3nUP7kE967BQk0CwFpdbZs0X0uk5sW9mkBa9eNM7hCMaG93WUAwxYQ==}
     engines: {node: '>=8'}
+
+  p-is-promise@4.0.0:
+    resolution: {integrity: sha512-4G3B+86qsIAX/+ip/yhHX9WUcyFKYkQYtE5bGkjpZyGK0Re53RbHky2UKt6RQVkDbUXb8EJRb4iga2SaI360nQ==}
+    engines: {node: '>=12'}
 
   p-limit@1.3.0:
     resolution: {integrity: sha512-vvcXsLAJ9Dr5rQOPk7toZQZJApBl2K4J6dANSsEuh6QI41JYcsS/qhTGa9ErIUUgK3WNQoJYvylxvjqmiqEA9Q==}
@@ -4731,24 +4737,25 @@ snapshots:
       - sass
       - supports-color
 
-  '@dword-design/base@13.1.1(@types/node@24.0.13)(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-core@3.5.17)(esbuild@0.25.6)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)))(vue-eslint-parser@9.4.3(eslint@9.31.0(jiti@2.4.2)))':
+  '@dword-design/base@14.0.0(@types/node@24.0.13)(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-core@3.5.17)(esbuild@0.25.6)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)))(vue-eslint-parser@9.4.3(eslint@9.31.0(jiti@2.4.2)))':
     dependencies:
       '@commitlint/cli': 18.6.1(@types/node@24.0.13)(typescript@5.8.3)
       '@commitlint/config-conventional': 18.6.3
       '@dword-design/base-config-node': 3.0.17(@vue/compiler-core@3.5.17)(esbuild@0.25.6)
       '@dword-design/ci': 4.0.6
-      '@dword-design/defu': 1.0.0
+      '@dword-design/defu': 1.0.3
       '@dword-design/eslint-config': 7.0.7(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)))(jiti@2.4.2)(typescript@5.8.3)(vue-eslint-parser@9.4.3(eslint@9.31.0(jiti@2.4.2)))
       '@dword-design/personal-data': 2.0.3
       '@semantic-release/changelog': 6.0.3(semantic-release@22.0.12(typescript@5.8.3))
       '@semantic-release/git': 10.0.1(semantic-release@22.0.12(typescript@5.8.3))
+      '@types/hosted-git-info': 3.0.5
+      '@types/parse-git-config': 3.0.4
       ajv: 8.17.1
       c8: 9.1.0
       change-case: 5.4.4
       commitizen: 4.3.1(@types/node@24.0.13)(typescript@5.8.3)
       cosmiconfig: 9.0.0(typescript@5.8.3)
       cz-conventional-changelog: 3.3.0(@types/node@24.0.13)(typescript@5.8.3)
-      deepmerge: 4.3.1
       depcheck: '@dword-design/depcheck@0.0.7'
       depcheck-detector-bin-name: 1.0.2
       depcheck-detector-execa: 4.0.3
@@ -4767,8 +4774,8 @@ snapshots:
       is-ci: 3.0.1
       jiti: 2.4.2
       lodash-es: 4.17.21
-      make-cli: 4.0.0
-      output-files: 2.0.32
+      make-cli: 4.0.6
+      output-files: 3.0.0
       package-name-regex: 4.0.3
       parse-git-config: '@dword-design/parse-git-config@0.0.1'
       parse-packagejson-name: 1.0.1
@@ -4781,6 +4788,7 @@ snapshots:
       spdx-license-list: 6.10.0
       tagged-template-noop: 2.1.1
       tsx: 4.20.3
+      type-fest: 4.41.0
       typescript: 5.8.3
       vue-tsc: 2.2.12(typescript@5.8.3)
       yaml: 2.8.0
@@ -4808,7 +4816,7 @@ snapshots:
     dependencies:
       babel-plugin-add-module-exports: 1.0.4
 
-  '@dword-design/defu@1.0.0':
+  '@dword-design/defu@1.0.3':
     dependencies:
       defu: 6.1.4
 
@@ -4893,7 +4901,7 @@ snapshots:
   '@dword-design/eslint-plugin-import-alias@6.0.3':
     dependencies:
       '@babel/core': 7.28.0
-      '@dword-design/defu': 1.0.0
+      '@dword-design/defu': 1.0.3
       babel-plugin-module-resolver: 5.0.2
     transitivePeerDependencies:
       - supports-color
@@ -5359,6 +5367,8 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
+  '@types/hosted-git-info@3.0.5': {}
+
   '@types/istanbul-lib-coverage@2.0.6': {}
 
   '@types/json-schema@7.0.15': {}
@@ -5375,6 +5385,8 @@ snapshots:
       undici-types: 7.8.0
 
   '@types/normalize-package-data@2.4.4': {}
+
+  '@types/parse-git-config@3.0.4': {}
 
   '@types/parse-json@4.0.2': {}
 
@@ -6277,8 +6289,6 @@ snapshots:
   deep-extend@0.6.0: {}
 
   deep-is@0.1.4: {}
-
-  deepmerge@4.3.1: {}
 
   defaults@1.0.4:
     dependencies:
@@ -7824,10 +7834,12 @@ snapshots:
       '@dword-design/functions': 4.1.7
       commander: 9.5.0
 
-  make-cli@4.0.0:
+  make-cli@4.0.6:
     dependencies:
-      '@dword-design/functions': 6.0.2
+      '@dword-design/defu': 1.0.3
       commander: 12.1.0
+      lodash-es: 4.17.21
+      p-is-promise: 4.0.0
 
   make-dir@4.0.0:
     dependencies:
@@ -8136,9 +8148,8 @@ snapshots:
 
   os-tmpdir@1.0.2: {}
 
-  output-files@2.0.32:
+  output-files@3.0.0:
     dependencies:
-      '@dword-design/functions': 4.1.7
       fs-extra: 11.3.0
 
   own-keys@1.0.1:
@@ -8155,6 +8166,8 @@ snapshots:
       p-map: 7.0.3
 
   p-is-promise@3.0.0: {}
+
+  p-is-promise@4.0.0: {}
 
   p-limit@1.3.0:
     dependencies:
