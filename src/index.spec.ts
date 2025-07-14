@@ -35,7 +35,7 @@ const tests = [
 ];
 
 for (const [index, testConfig] of tests.entries()) {
-  test(index, ({}, testInfo) => {
+  test(index.toString(), ({}, testInfo) => {
     const cwd = testInfo.outputPath();
 
     const ast = ts.createSourceFile(
@@ -44,6 +44,8 @@ for (const [index, testConfig] of tests.entries()) {
       ts.ScriptTarget.Latest,
     );
 
-    expect(self(ast.statements[0].expression)).toEqual(testConfig.result);
+    expect(self((ast.statements[0] as ts.ExportAssignment).expression)).toEqual(
+      testConfig.result,
+    );
   });
 }
