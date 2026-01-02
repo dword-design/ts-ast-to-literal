@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/dword-design/ts-ast-to-literal/compare/v4.0.4...v5.0.0) (2026-01-02)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#96](https://github.com/dword-design/ts-ast-to-literal/issues/96)) ([1ea8bc2](https://github.com/dword-design/ts-ast-to-literal/commit/1ea8bc2ac7d82fe05faeeb5861ad9ab64a44756f))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [4.0.4](https://github.com/dword-design/ts-ast-to-literal/compare/v4.0.3...v4.0.4) (2025-07-14)
 
 
