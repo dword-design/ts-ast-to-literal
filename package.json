@@ -15,10 +15,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": {
-        "default": "./dist/index.js",
-        "types": "./dist/index.d.ts"
-      }
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "main": "dist/index.js",
@@ -33,19 +31,21 @@
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "test": "base test"
+    "test": "base test",
+    "typecheck": "base typecheck",
+    "verify": "base verify"
   },
   "devDependencies": {
-    "@dword-design/base": "^14.0.0",
-    "@playwright/test": "^1.54.1",
-    "typescript": "^5.8.3"
+    "@dword-design/base": "^16.1.6",
+    "@playwright/test": "^1.57.0",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"
