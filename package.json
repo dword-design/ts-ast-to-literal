@@ -36,9 +36,9 @@
     "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base": "^16.0.0",
-    "@playwright/test": "^1.54.1",
-    "typescript": "^5.8.3"
+    "@dword-design/base": "^16.1.6",
+    "@playwright/test": "^1.57.0",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "typescript": "^5"
